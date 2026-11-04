@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "attention-dca-pytorch"
+version = "0.1.0"
+description = "A standalone PyTorch implementation of AttentionDCA for protein contact prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Felix Benkel" }]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "torch>=2.0",
+    "biopython>=1.83",
+    "matplotlib>=3.7",
+]
+
+[tool.setuptools]
+packages = ["attention_dca"]

@@ -1,0 +1,24 @@
+{
+  "couplings": {
+    "PPV@L/2": 0.945,
+    "PPV@L": 0.901,
+    "PPV@2L": 0.797,
+    "PPV@3L": 0.703
+  },
+  "attention": {
+    "PPV@L/2": 0.945,
+    "PPV@L": 0.91,
+    "PPV@2L": 0.788,
+    "PPV@3L": 0.712
+  },
+  "far pairs in the top 3L": {
+    "n_far": 31,
+    "n_across": 13,
+    "background": 0.013923013923013924
+  },
+  "salt bridge heads": {
+    "best_head": 96,
+    "best_r": 0.699,
+    "r_vs_charge_covariance": -0.714
+  }
+}

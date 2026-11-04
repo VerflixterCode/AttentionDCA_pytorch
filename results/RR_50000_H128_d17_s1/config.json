@@ -1,0 +1,17 @@
+{
+  "L": 111,
+  "H": 128,
+  "d": 17,
+  "q": 21,
+  "lambd": 0.001,
+  "seed": 1,
+  "dtype": "torch.float32",
+  "n_epochs": 1000,
+  "batch_size": 1000,
+  "eta": 0.005,
+  "val_frac": 0.2,
+  "patience": 10,
+  "delta": 0.001,
+  "best_epoch": 72,
+  "best_val_loss": 187.7919464111328
+}

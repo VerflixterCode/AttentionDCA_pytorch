@@ -1,0 +1,45 @@
+# LaTeX stuff
+text.usetex: False
+font.family: serif
+text.latex.preamble: "\\usepackage[utf8]{inputenc}\n\\setlength{\\parindent}{0pt}"
+
+# Text size
+axes.labelsize: 12
+font.size: 12
+legend.fontsize: 12
+xtick.labelsize: 12
+ytick.labelsize: 12
+# lines.markersize: 12
+
+# Custom color cycle
+# Taken from https://www.nature.com/articles/nmeth.1618 (because I grew tired of the default color cycle xd)
+axes.prop_cycle: cycler('color', ['0072B2', 'E69F00', '009E73', 'D55E00', 'CC79A7', 'F0E442', '56B4E9', '000000'])
+
+# Figure options
+figure.constrained_layout.use: True
+figure.figsize: 3.95, 2.96
+figure.dpi: 130
+axes.titlesize: 12
+lines.color: grey
+lines.linewidth: 1
+scatter.marker: +
+errorbar.capsize: 0
+axes.formatter.useoffset: False
+# axes.spines.right: False  # spineless smh
+# axes.spines.top: False
+
+# Legend
+legend.frameon: False
+legend.handlelength: 1.2
+legend.handleheight: 0.5
+legend.handletextpad: 0.6
+legend.labelspacing: 0.3
+
+axes.axisbelow: True
+axes.grid: True
+grid.linestyle: -
+grid.linewidth: 0.5
+grid.alpha: 0.2
+xtick.minor.visible: True
+ytick.minor.visible: True
+
